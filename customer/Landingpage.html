@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Landing Page</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Primary: "#DD0042",
+              Gray: "#383838",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <nav class="flex justify-between px-10 shadow-sm py-5">
+      <div class="flex gap-3">
+        <p class="text-Primary font-bold">NADIRA NAPOLEON</p>
+        <div class="w-6 h-6 overflow-hidden">
+          <img
+            src="../assets/img/logo.png"
+            alt="logo"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </div>
+      <div class="flex gap-5 items-center">
+        <ul class="flex gap-10">
+          <a href="Landingpage.html">
+            <li class="font-medium">Home</li>
+          </a>
+          <a href="Menu.html">
+            <li class="font-medium">Menu</li>
+          </a>
+          <li class="font-medium">About</li>
+          <li class="font-medium">contact</li>
+        </ul>
+        <button class="bg-Primary text-white px-6 py-1 rounded-full">
+          Sign In
+        </button>
+        <i class="bi bi-search text-xl"></i>
+      </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Start Content -->
+    <div>
+      <!-- Hero section -->
+      <div class="h-[calc(100vh-72px)] relative">
+        <img
+          src="../assets/img/image1.png"
+          alt=""
+          class="w-full h-full object-cover brightness-50"
+        />
+        <p class="font-bold text-5xl absolute bottom-20 left-24 text-white">
+          OLEH OLEH NO 1 <br />DI PEKANBARU
+        </p>
+      </div>
+      <!-- end hero section -->
+      <div class="my-16">
+        <p class="font-bold text-2xl px-24">
+          Selamat datang di Nadhira Napoleon! Temukan kelezatan dari berbagai
+          penjuru dunia dalam setiap gigitan. Sajikan momen luar biasa Anda
+          dengan hidangan autentik dan kualitas terbaik
+        </p>
+        <div class="grid grid-cols-2 mt-10 px-20">
+          <div class="w-full h-[500px]">
+            <img
+              src="../assets/img/macaron.png"
+              alt=""
+              class="w-full h-full object-contain"
+            />
+          </div>
+          <div class="flex flex-col justify-center">
+            <p class="text-2xl font-bold">
+              Nikmati sensasi baru dengan produk kami
+            </p>
+            <p class="text-lg mt-4">
+              Nikmati pengalaman belanja yang nyaman dengan pengiriman cepat dan
+              aman. Jadikan perjalanan Anda lebih istimewa dengan oleh oleh
+              kami. Selamat berbelanja dan bawa pulang potongan kebahagiaan
+              dalam setiap bungkusnya.
+            </p>
+            <button
+              class="bg-Primary text-white font-medium px-3 py-1 w-[30%] rounded-xl mt-5"
+            >
+              About Us
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="my-16">
+        <div class="grid grid-cols-2 mt-10 px-20">
+          <div class="flex flex-col justify-center mr-5">
+            <p class="text-2xl font-bold">Rasakan kenyamanannya</p>
+            <p class="text-lg mt-4">
+              Nikmati pengalaman belanja yang nyaman dengan pengiriman cepat dan
+              aman. Jadikan perjalanan Anda lebih istimewa dengan oleh oleh
+              kami. Selamat berbelanja dan bawa pulang potongan kebahagiaan
+              dalam setiap bungkusnya.
+            </p>
+            <div class="flex gap-6 justify-between mt-5">
+              <div class="bg-black px-4 py-2 w-[50%] rounded-xl mt-5 flex items-center gap-3 hover:cursor-pointer">
+                <div class="w-10 h-10 overflow-hidden">
+                  <img src="../assets/img/googleplay.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <p class="text-white text-sm">GET IT ON</p>
+                  <p class="text-white text-2xl font-medium">Google Play</p>
+                </div>
+              </div>
+              <div class="bg-black px-4 py-2 w-[50%] rounded-xl mt-5 flex items-center gap-3 hover:cursor-pointer">
+                <div class="w-10 h-10 overflow-hidden">
+                  <img src="../assets/img/applelogo.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <p class="text-white text-sm">Downlon On The</p>
+                  <p class="text-white text-2xl font-medium">App Store</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full h-[500px]">
+            <img
+              src="../assets/img/image2.png"
+              alt=""
+              class="w-full h-full object-contain"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+    <!-- Start Footer -->
+    <footer class="bg-black px-20 py-10">
+      <div class="flex gap-3">
+        <p class="text-Primary font-bold">NADIRA NAPOLEON</p>
+        <div class="w-6 h-6 overflow-hidden">
+          <img
+            src="../assets/img/logo.png"
+            alt="logo"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </div>
+      <div class="flex justify-between items-center">
+        <div>
+          <p class="text-white font-medium py-5">Navigate</p>
+          <ul>
+            <li class="text-white font-medium">Home</li>
+            <li class="text-white font-medium">About</li>
+            <li class="text-white font-medium">Contact</li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <p class="text-white font-bold">Follow us on</p>
+          <div class="flex gap-3 mt-4">
+            <div class="w-8 h-8 overflow-hidden">
+              <img src="../assets/img/instagram.png" alt="" class="w-full h-full object-cover">
+            </div>
+            <div class="w-8 h-8 overflow-hidden">
+              <img src="../assets/img/twitter.png" alt="" class="w-full h-full object-cover">
+            </div>
+            <div class="w-8 h-8 overflow-hidden">
+              <img src="../assets/img/linkedin.png" alt="" class="w-full h-full object-cover">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="flex justify-between mt-5">
+        <p class="text-slate-500">Copyright @ 2023 NadhiraNapoleon</p>
+        <p class="text-slate-500">Privacy Policy</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>

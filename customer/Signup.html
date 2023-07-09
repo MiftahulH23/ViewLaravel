@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sign Up</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                Primary: '#DD0042',
+                Gray : '#383838'
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- Start Header -->
+    <nav class="flex gap-3 items-center px-10 shadow-sm py-5">
+        <p class="text-Primary font-bold">NADIRA NAPOLEON</p>
+        <div class="w-6 h-6 overflow-hidden">
+            <img src="../assets/img/logo.png" alt="logo" class="w-full h-full object-contain">
+        </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Start Content -->
+    <main class="grid place-items-center ">
+        <div class="shadow-md w-[40%] px-10 mt-10 py-10">
+            <p class="text-3xl font-medium">Daftar Sekarang!</p>
+            <p class="text-sm text-Gray">Sign up or sign in to continue</p>
+            <p class="mt-5 mb-3">Email</p>
+            <input type="text" placeholder="Email" class="border px-5 py-2 w-full rounded-lg">
+            <p class="mt-5 mb-3">Password</p>
+            <input type="text" placeholder="Password" class="border px-5 py-2 w-full rounded-lg">
+            <p class="mt-5 mb-3">Confrim Password</p>
+            <input type="text" placeholder="Confirm Password" class="border px-5 py-2 w-full rounded-lg" >
+            <button class="bg-Primary w-full py-2 items-center text-white rounded-lg my-4">Submit</button>
+            <p class="text-center">Already have an account? <a href="" class="text-Primary">Sign in</a> </p>
+        </div>
+    </main>
+    <!-- End Content -->
+</body>
+</html>
